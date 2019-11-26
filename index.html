@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <style>
+html {
+    scroll-behavior: smooth;
+}
+
+        body {
+            margin: 0px;
+            font-family: 'Open Sans Condensed', sans-serif;
+
+        }
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+
+        }
+
+        p {
+            text-align: justify;
+            line-height: 30px;
+
+        }
+
+        .pag1 {
+            width: 100%;
+            height: 100vh;
+            background-image: url('./pic/pic1.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .mask {
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .text1 {
+            width: 200px;
+            text-align: center; 
+            font-size: 25px;
+            background-color: rgba(6, 49, 49, 0.8);
+            color: white;
+            padding: 10px;
+            position: absolute;
+            top: calc(50% - 10px);
+            left: calc(50% - 120px);
+            box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+            border: 1px solid  rgba(255, 255, 255, 0.3);
+
+
+        }
+
+        .boxA {
+            background-color: rgb(245, 245, 245);
+            padding: 50px;
+        }
+
+        .pag2 {
+            width: 100%;
+            height: 600px;
+            background-position: center;
+            background-image: url('./pic/pic2.jpeg');
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+
+        }
+
+        .text2 {
+            width: 200px;
+            text-align: center;
+            /* background-color: white;
+            opacity: 0.8; */
+            color: rgb(117, 117, 117);
+            font-size: 30px;
+            padding: 10px;
+            position: absolute;
+            top: calc(50% - 60px);
+            left: calc(50% - 110px);
+
+        }
+
+        .boxB {
+            height: 100px;
+            color: white;
+            background-color: rgb(20, 36, 36);
+            text-align: center;
+            padding: 90px 0px 0px 0px;
+
+        }
+
+        .pag3 {
+            width: 100%;
+            height: 600px;
+            background-position: center;
+            background-image: url('./pic/pic3.jpeg');
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+
+        }
+
+        .text3 {
+            width: 200px;
+            text-align: center;
+            /* background-color: white;
+            opacity: 0.8; */
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            padding: 10px;
+            position: absolute;
+            top: calc(50% - 60px);
+            left: calc(50% - 110px);
+
+        }
+
+
+        .boxC {
+            height: 100px;
+            color: white;
+            background-color: rgb(20, 36, 36);
+            text-align: center;
+            padding: 90px 0px 0px 0px;
+
+        }
+
+        .pag4 {
+
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-image: url('./pic/pic4.jpeg');
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+
+        }
+
+        .text4 {
+            width: 600px;
+            text-align: justify;
+
+
+            color: white;
+
+            position: absolute;
+            top: 50%;
+            left: 30%;
+
+
+        }
+
+        .navbar {
+            width: 100%;
+
+            background-color: rgba(20, 36, 36, 0.8);
+            padding: 5px;
+            position: fixed;
+            /* 固定位置 */
+            text-align: right;
+
+            top: 0px;
+            z-index: 10;
+
+
+        }
+
+        a {
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 30px;
+
+        }
+
+        .d-inline {
+            display: inline;
+
+
+        }
+
+        #icon {
+            height: 40px;
+            float: left;
+            margin: 0px 10px;
+        }
+
+        .japan {
+            font-size: 30px;
+            color: rgb(192, 192, 192);
+            float: left;
+        }
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+      <img id=icon src="./pic/icon.png" alt=""> 
+      <div class="japan">JAPAN !</div>
+        <div class="d-inline">
+            <a href="#pag1">TOP</a>
+        </div>
+        <div class="d-inline">
+            <a href="#pag2">Page2</a>
+        </div>
+        <div class="d-inline">
+            <a href="#pag3">Page3</a>
+        </div>
+        <div class="d-inline">
+                <a href="#pag4">Page4</a>
+            </div>
+    </nav>
+
+    <div id=pag1 class="pag1">
+        <div class="mask"></div>
+        <div class="text1">SCROLL DOWN</div>
+    </div>
+    <div class="boxA">
+
+        <h1>PARALLAX DEMO</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit ut repudiandae minima odio
+            distinctio a iusto dignissimos nisi cum sed maxime ratione autem quas non vitae nemo aperiam id nam
+            voluptatibus eum reprehenderit, ipsa eveniet! Quidem quae sapiente laboriosam quasi, ducimus excepturi
+            voluptas deserunt vitae. Assumenda, quia molestiae in labore aperiam deserunt accusantium ab error
+            inventore incidunt a sit maiores animi quos, repellat totam adipisci fugiat placeat. Temporibus
+            consequatur sint nesciunt dolorem hic saepe nisi? Harum ex natus repellendus iusto, hic aut eaque porro
+            eveniet architecto nostrum facere odit illo sit praesentium deserunt blanditiis autem? Ab, eos. Esse,
+            rem?inventore incidunt a sit maiores animi quos, repellat totam adipisci fugiat placeat. Temporibus
+            consequatur sint nesciunt dolorem hic saepe nisi? Harum ex natus repellendus iusto, hic aut eaque porro
+            eveniet architecto nostrum facere odit illo sit praesentium deserunt blanditiis autem? Ab, eos. Esse,
+            rem?</p>
+
+    </div>
+
+    <div id=pag2 class="pag2">
+        <div class="text2">LESS HEIGHT</div>
+    </div>
+    <div class="boxB">
+        Scroll up and down to really get the feeling of how Parallax Scrolling works.
+    </div>
+    <div id=pag3 class="pag3">
+        <div class="text3">SCROLL UP</div>
+    </div>
+    <div class="boxC">
+        Scroll up and down to really get the feeling of how Parallax Scrolling works.
+    </div>
+    <div id=pag4 class="pag4">
+            <div class="mask"></div>
+        <div class="text1">END</div>
+    </div>
+</body>
+
+</html>
